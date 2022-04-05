@@ -686,3 +686,41 @@
 // Promise.all([test(1000), test(2000)]).then(() => {
 //     console.log('All');
 // });
+
+// ______________________________PRACTICE 57______________________
+
+// const names = ['Ivan', "Ann", 'Ksenia', 'Voldemart'];
+
+// const shortNames = names.filter(function(name) {
+//     return name.length < 5;
+// });
+
+// console.log(shortNames);
+
+// const answers = ['IvAn', "AnnA",  'Hello'];
+
+// const result = answers.map(item => item.toLowerCase());
+
+// console.log(result);
+
+// const some = [4, 'qwq', 'sedefsef'];
+
+// console.log(some.every(item => typeof(item) === 'number'));
+
+
+// _______________________________________Practice 65____________________
+
+// new RegExp('pattern','flags');
+
+const ans = promt('Введите ваше имя');
+
+const reg = /n/ig;
+console.log(reg.test(ans));
+// // console.log(ans.search(reg));
+// // console.log(ans.match(reg));
+
+// const pass = promt('Password');
+
+// console.log(pass.replace(/./g, "*"));
+
+// console.log('12-34-56'.replace(/-/g, ':'));
